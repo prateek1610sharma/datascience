@@ -1,0 +1,23 @@
+GIT-
+------
+
+= git init : initialize local git repo in pwd
+= git config --global user.email "email id"
+= git config --global user.name "user name"
+= git config --global --list
+
+= git branch : check number of local branches & shows active branch in green color
+= git branch "new branch name" : creates new local branch by copying main branch
+= git checkout "branch name" : switch to required local branch
+= git merge "child branch name" : merge local child branch to present working branch
+
+= git add . : add files from pwd to staging area
+= git commit -m "message" : move files from staging area tp local git repo
+= git push -f origin main : pushes files from local git repo to remote repo which is represented by 'origin' and remote branch 'main'
+= git pull origin main : pull changes from remote repo origin and branch main to pwd
+= git clone "remote repo HTTP url" / git clone SSH "remote repo SSH url"
+= git log
+= git status
+
+= git remote set-url origin "remote repo url" : changes remote repo to another repo
+= git remote add origin "remote repo url" : link remote repo to origin for 1st time
