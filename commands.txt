@@ -22,3 +22,9 @@ GIT-
 = git remote set-url origin "remote repo url" : changes remote repo to another repo
 = git remote add origin "remote repo url" : link remote repo to origin for 1st time
 = git remote -v : gives detail of remote repo
+
+
+PYTHON-
+---------
+
+Underscores & double underscores in python
